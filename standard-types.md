@@ -50,6 +50,14 @@ const tomScore: [name: string, ...scores: number[]] = ['Tom', 70, 70, 70];
 If we add a new status value but forget the catch it in the switch statement, below code will throw a typescript error. So, we made doSomeAction typesafe.
 
 ```ts
+function reject(): never {
+  // This function never returns because
+  // it always throws an error
+  throw new Error('Error!');
+}
+```
+
+```ts
 // 'xxx' will trigger never
 type Status = 'Loading' | 'Loaded' | 'xxx';
 
