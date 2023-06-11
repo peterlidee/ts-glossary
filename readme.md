@@ -11,3 +11,5 @@ Compiled from [learntypescript.dev](https://learntypescript.dev/) and Code With 
 - type narrowing
 - utility types
 - ts config
+
+- react general
