@@ -1,5 +1,7 @@
 # React hooks
 
+<https://github.com/peterlidee/react-in-typescript>
+
 ## State
 
 ```ts
