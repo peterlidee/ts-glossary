@@ -13,3 +13,5 @@ Compiled from [learntypescript.dev](https://learntypescript.dev/) and Code With 
 - ts config
 
 - react general
+- react hooks
+- react patterns
